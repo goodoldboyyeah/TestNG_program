@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API_Test_Suite">
+    <parameter name="file.encoding" value="UTF-8" />
+<!--    <listeners>-->
+<!--        &lt;!&ndash; ZTestReport 监听器 &ndash;&gt;-->
+<!--        <listener class-name="src.main.resources.org.testng" />-->
+
+<!--        &lt;!&ndash; 其他监听器 &ndash;&gt;-->
+<!--        <listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+<!--        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+<!--    </listeners>-->
+<!--    <packages>-->
+<!--        <package name=""></package>-->
+<!--    </packages>-->
+    <test name="HTTP_API_Tests">
+        <classes>
+            <!-- 测试类1：基础接口测试 -->
+            <class name="http.testcases.AutoApiTest"/>
+            <class name="http.testcases.getAccessTokenTest"></class>
+        </classes>
+    </test>
+<!--    <listeners>-->
+<!--        <listener class-name=""></listener>-->
+<!--    </listeners>-->
+</suite>

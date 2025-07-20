@@ -1,0 +1,9 @@
+{
+  "comments": "这是一个示例请求",
+  "protocol": "http",
+  "requestType": "get",
+  "url": "http://localhost:8080/api/hello",
+  "request": null,
+  "headers":null,
+  "params":null
+}
